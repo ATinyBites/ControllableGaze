@@ -60,8 +60,10 @@ The generated gaze datasets are stored in the `synthetic_dataset` directory.
 ### 2. Train Gaze Estimator
 ```bash
 # Train gaze estimator for mpiiFaceGaze
+mkdir ckpt/mpii
 python train_estimator.py --data_dir=synthetic_dataset/mpii --ckpt_dir=ckpt/mpii
 # Or train gaze estimator for columbiaGaze
+mkdir ckpt/columbia
 python train_estimator.py --data_dir=synthetic_dataset/columbia --ckpt_dir=ckpt/columbia
 ```
 
