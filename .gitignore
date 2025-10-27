@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.out
+
+output/*
+dataset/*
+synthetic_dataset/*
+ckpt/*
+flame_model/assets/flame/*
+!<flame_model/assets/flame/head_template_mesh.obj>
+!<flame_model/assets/flame/landmark_embedding_with_eyes.npy>
+!<flame_model/assets/flame/mediapipe_landmark_embedding.npz>
+!dataset/.gitkeep 
+!output/.gitkeep
+!synthetic_dataset/.gitkeep 
+!ckpt/.gitkeep 
+# submodules
+logs
+
+tmp.png
+tmp2.png
+view_eye.png
+view_face.png
+*.out
+*.png

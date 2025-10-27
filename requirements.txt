@@ -1,0 +1,5 @@
+numpy==1.23.4
+piq==0.7.0
+-e ./submodules/simple-knn
+-e ./submodules/diff-gaussian-rasterization
+-e ./submodules/pytorch3d
