@@ -1,3 +1,5 @@
+
+
 # What we need is explicit controllability: Training 3D gaze estimator using only facial images
 
 <p align="center">
@@ -13,7 +15,7 @@
 ```bash
 # Clone repository
 git clone https://github.com/ATinyBites/ControllableGaze.git --recursive
-cd controllable-gaze
+cd ControllableGaze
 
 # Create conda environment
 conda env create -f environment.yml
